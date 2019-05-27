@@ -1,0 +1,80 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1B2034;
+}
+
+.navbar-nav {
+    font-family: barlow,sans-serif;
+    
+}
+
+.logo {
+    float:center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 300px;
+    
+}
+
+#storyh {
+    font-size: 250%;
+}
+
+.list-unstyled {
+    font-size: 120%;
+}
+
+#box1 {
+    background: blue;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#lightbox1 {
+    /*background-color:rgba(10, 176, 148, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 50;
+    */
+    background-color:rgba(10,176,148,0.6);
+    width: 60%;
+    border-radius: 20px;
+    
+}
+
+#lightbox2 {
+    /*background-color:rgba(10, 176, 148, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+    max-width: 50;
+    */
+    background-color:rgba(10,176,148,0.6);
+    width: 60%;
+    border-radius: 20px;
+    float:right;
+}
+
+#row1{
+    background:transparent url('../images/programgrad.png') no-repeat center center /cover;   
+}
+
+#rightside {
+    background-color: rgba(5,179,146,0.4);
+}
+
+#leftside {
+    background-color: rgba(183, 47,123,0.4);
+}
+
+
+
+

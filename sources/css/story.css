@@ -1,0 +1,94 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1B2034;
+}
+
+.navbar-nav {
+    font-family: barlow,sans-serif;
+    
+}
+
+.logo {
+    float:center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 300px;
+    
+}
+#paragraph1{
+    font-size:175%;
+}
+p {
+    font-size: 30px;
+}
+#storyh{
+    font-size:250%;
+}
+
+
+
+/*Circle Diagram*/
+.circle-container {
+    position: relative;
+    /* 1 */
+    width: 20em;
+    height: 20em;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    /* 2 */
+    box-sizing: content-box;
+    /* 3 */
+    margin: 5em auto 0;
+    border: solid 5px #B3307C;
+  }
+  /*controls all pics at once*/
+  .circle-container > * {
+    /* 4 */
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 6em;
+    height: 6em;
+    margin: -3em;
+  }
+
+  /*position of images surrounding circles*/
+  .circle-container > :nth-of-type(1) {
+    transform: rotate(30deg) translate(10em) rotate(-30deg);
+  }
+  .circle-container > :nth-of-type(2) {
+    transform: rotate(90deg) translate(10em) rotate(-90deg);
+  }
+  .circle-container > :nth-of-type(3) {
+    transform: rotate(150deg) translate(10em) rotate(-150deg);
+  }
+  .circle-container > :nth-of-type(4) {
+    transform: rotate(210deg) translate(10em) rotate(-210deg);
+  }
+  .circle-container > :nth-of-type(5) {
+    transform: rotate(270deg) translate(10em) rotate(-270deg);
+  }
+  .circle-container > :nth-of-type(6) {
+    transform: rotate(330deg) translate(10em) rotate(-330deg);
+  }
+  
+  /*size of rest of images*/
+  .circle-container img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  /*size of center image*/
+  .circle-container li:last-child img {
+    transform: scale(1.25);
+  }

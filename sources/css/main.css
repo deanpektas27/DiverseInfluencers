@@ -1,0 +1,93 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #1B2034;
+}
+
+.navbar-nav {
+    font-family: barlow,sans-serif;
+    
+}
+
+.logo {
+    float:center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 300px;
+    
+}
+
+/* Parallax Top Portion */
+
+.parallax {
+    background-image: url("../images/IMG_3011.jpg");
+
+    height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*caption*/
+
+.text-box {
+    
+    height: 600px;
+    padding: 50px;
+    color: #ffffff;
+       
+}
+
+.animated {
+    font-size: 90px;
+    font-weight: bold;
+    
+}
+/*mission statement*/
+#header1 {
+    font-size: 300%;
+    font-weight: bold;
+}
+
+#paragraph1 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: lighter;
+}
+/*color row sections*/
+.colorRow {
+    text-align: center;
+      
+}
+
+
+.col-lg-3 {
+    padding:300px 0;
+}
+
+.footer-middle {
+    background: #1B2034;
+    padding: 3rem;
+    display: text;
+    justify-content: space-between;
+    
+}
+
+.footer-social-icons {
+    text-align:center;
+}
+
+
+
+
+
