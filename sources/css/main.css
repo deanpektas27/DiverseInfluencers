@@ -67,7 +67,12 @@ header {
 /*color row sections*/
 .colorRow {
     text-align: center;
+    
       
+}
+
+p{
+    color:white;
 }
 
 
@@ -86,6 +91,16 @@ header {
 .footer-social-icons {
     text-align:center;
 }
+
+#box1 {
+    background:transparent url('../images/home_box1.png') no-repeat center center /cover;
+}
+
+#box2 {
+    background:transparent url('../images/home_box2.png') no-repeat center center /cover;
+}
+
+
 
 
 
