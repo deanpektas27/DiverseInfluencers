@@ -64,7 +64,13 @@ header {
 }
 
 #row1{
-    background:transparent url('../images/programgrad.png') no-repeat center center /cover;   
+    background:#fe9826;
+    color:white;  
+}
+
+#row2 {
+    background:#1B2034;
+    color:white;
 }
 
 #rightside {
@@ -73,6 +79,14 @@ header {
 
 #leftside {
     background-color: rgba(183, 47,123,0.4);
+}
+
+#benrightside {
+    background:transparent url('../images/1.png')no-repeat center center /cover;
+}
+
+#benrightside::before{
+    background:orange;
 }
 
 
