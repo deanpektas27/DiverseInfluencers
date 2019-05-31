@@ -1,9 +1,18 @@
 * {
     font-family: 'Barlow', sans-serif;
+    
+}
+
+a {
+    font-size: 21px;
 }
 
 body {
     overflow-x: hidden;
+}
+
+h1 {
+    font-size: 21px;
 }
 
 header {
@@ -76,6 +85,9 @@ p{
     color:white;
 }
 
+h2 {
+    font-size: 600%;
+}
 
 .col-lg-3 {
     padding:300px 0;
@@ -99,6 +111,14 @@ p{
 
 #box2 {
     background:transparent url('../images/home_box2.png') no-repeat center center /cover;
+}
+
+#box3 {
+    background:transparent url('../images/home_box3.png') no-repeat center center /cover;
+}
+
+#box4 {
+    background:transparent url('../images/home_box4.png') no-repeat center center /cover;
 }
 
 

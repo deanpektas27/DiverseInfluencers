@@ -1,5 +1,10 @@
 * {
     font-family: 'Barlow', sans-serif;
+    font-size: 21px;
+}
+
+p{
+    font-size:25px;
 }
 
 body {
@@ -23,10 +28,6 @@ header {
     
 }
 
-#storyh {
-    font-size: 250%;
-}
-
 .list-unstyled {
     font-size: 120%;
 }
@@ -37,35 +38,13 @@ header {
     padding: 2rem;
 }
 
-#lightbox1 {
-    /*background-color:rgba(10, 176, 148, 0.6);
-    padding: 40px;
-    border-radius: 10px;
-    width: 40%;
-    max-width: 50;
-    */
-    background-color:rgba(10,176,148,0.6);
-    width: 60%;
-    border-radius: 20px;
-    
-}
-
-#lightbox2 {
-    /*background-color:rgba(10, 176, 148, 0.6);
-    padding: 40px;
-    border-radius: 10px;
-    width: 40%;
-    max-width: 50;
-    */
-    background-color:rgba(10,176,148,0.6);
-    width: 60%;
-    border-radius: 20px;
-    float:right;
+li {
+    font-size: 100%;
 }
 
 #row1{
     background:#fe9826;
-    color:white;  
+    color:white; 
 }
 
 #row2 {
@@ -73,12 +52,16 @@ header {
     color:white;
 }
 
+
+
 #rightside {
-    background-color: rgba(5,179,146,0.4);
+    background-color: rgba(5,179,146,0.8);
+    color: white;
 }
 
 #leftside {
-    background-color: rgba(183, 47,123,0.4);
+    background-color: rgba(183, 47,123,0.8);
+    color: white;
 }
 
 #benrightside {
@@ -87,6 +70,18 @@ header {
 
 #benrightside::before{
     background:orange;
+}
+
+.parallax {
+
+    background-image: url("../images/progbackgrad.png");
+
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
