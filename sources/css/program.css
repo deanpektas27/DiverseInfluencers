@@ -55,13 +55,13 @@ li {
 
 
 #rightside {
-    background-color: rgba(5,179,146,0.8);
-    color: white;
+    background-color: rgba(255,255,255,0.8);
+    color: black;
 }
 
 #leftside {
-    background-color: rgba(183, 47,123,0.8);
-    color: white;
+    background-color: rgb(255, 255, 255,0.8);
+    color: black;
 }
 
 #benrightside {
@@ -74,7 +74,7 @@ li {
 
 .parallax {
 
-    background-image: url("../images/progbackgrad.png");
+    background-color: rgba(183, 47,123,1);
 
 
 
