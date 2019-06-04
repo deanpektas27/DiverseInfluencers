@@ -33,6 +33,9 @@ header {
 
 #toprow {
   background:transparent url('../images/mtr3.jpeg')no-repeat center center /cover;
+  background-position: 0 0;
+
+
 }
 
 #boardheader {
