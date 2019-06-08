@@ -8,6 +8,7 @@ a {
 
 body {
     overflow-x: hidden;
+    
 }
 
 header {
@@ -47,12 +48,17 @@ header {
 #boardrow {
   background-color: #00b594;
   color: white;
-  
+  margin-left: 25%;
+  margin-right: 25%;
   padding-top: 2%;
   text-align: center;
-
-
 }
+
+.container {
+  background-color: #00b594;
+  
+}
+
 
 .col-centered {
 
