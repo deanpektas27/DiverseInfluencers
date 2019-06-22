@@ -4,8 +4,7 @@
 }
 
 a {
-  /*font-size: 21px;*/
-  font-weight: 400;
+  font-size: 21px;
 }
 
 body {
@@ -18,11 +17,6 @@ h1 {
 
 header {
   background-color: #1B2034;
-}
-
-.navbar-nav {
-  
-  
 }
 
 .logo {

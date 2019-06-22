@@ -1,23 +1,33 @@
 * {
     font-family: 'Barlow', sans-serif;
-}
-
-header {
-    background-color: #1B2034;
-}
-
-.navbar-nav {
-    font-family: barlow-medium,barlow,sans-serif;
     
-}
-
-.logo {
+  }
+  
+  a {
+    font-size: 21px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    font-size: 21px;
+  }
+  
+  header {
+    background-color: #1B2034;
+  }
+  
+  .logo {
     float:center;
     margin-top: 4%;
     margin-bottom: 4%;
     width: 300px;
     
-}
+  }
+  
+  /*End of primary styling for all sheets*/
 
 /* Parallax Top Portion */
 
