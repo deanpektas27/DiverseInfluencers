@@ -21,7 +21,7 @@ header {
 }
 
 .navbar-nav {
-    font-family: barlow,sans-serif;
+    
     
 }
 
@@ -32,6 +32,8 @@ header {
     width: 300px;
     
 }
+
+/*End of primary styling for all sheets*/
 
 /* Parallax Top Portion */
 

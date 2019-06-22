@@ -1,32 +1,39 @@
 * {
-    font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  
 }
 
 a {
-  font-weight: lighter;
+  /*font-size: 21px;*/
+  font-weight: 400;
 }
 
 body {
-    overflow-x: hidden;
-    
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 21px;
 }
 
 header {
-    background-color: #1B2034;
+  background-color: #1B2034;
 }
 
 .navbar-nav {
-    font-family: barlow,sans-serif;
-    
+  
+  
 }
 
 .logo {
-    float:center;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    width: 300px;
-    
+  float:center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 300px;
+  
 }
+
+/*End of primary styling for all sheets*/
 
 #banner {
   background:transparent url('../images/1.png')no-repeat center center /cover;
