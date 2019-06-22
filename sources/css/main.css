@@ -32,7 +32,7 @@ header {
 /* Parallax Top Portion */
 
 .parallax {
-    background-image: url("../images/IMG_3011.jpg");
+    background: url("../images/IMG_3011.jpg");
 
     height: 600px;
 

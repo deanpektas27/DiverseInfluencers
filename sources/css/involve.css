@@ -29,19 +29,6 @@
   
   /*End of primary styling for all sheets*/
 
-/* Parallax Top Portion */
-
-.parallax {
-    background-image: url("../images/IMG_3011.jpg");
-
-    height: 600px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 
 /*caption*/
