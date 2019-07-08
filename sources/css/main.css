@@ -31,10 +31,18 @@ header {
 
 /* Parallax Top Portion */
 
+@media (max-width: 600px) {
+    .bg01 { 
+background-image: url("../images/bg_small.jpg");
+background-size: 20% 20%;
+background-repeat: repeat;
+        }
+}
+
 .parallax {
     background: url("../images/IMG_3011.jpg");
 
-    height: 600px;
+    min-height: 500px;
 
     background-attachment: fixed;
     background-position: center;
