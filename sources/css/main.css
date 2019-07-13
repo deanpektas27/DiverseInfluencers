@@ -31,6 +31,7 @@ header {
 
 /* Parallax Top Portion */
 
+/*Changes image on mobile*/
 @media only screen 
 and (max-width: 480px) {
     .parallax { 
