@@ -55,6 +55,7 @@ background-repeat: repeat;
 /*caption*/
 
 .text-box {
+    padding-top: 5%;
     text-align: left;
     font-size:85px;
     height: 600px;
