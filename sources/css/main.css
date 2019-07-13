@@ -28,7 +28,7 @@ header {
 }
 
 @media only screen 
-and (max-width: 815px) {
+and (max-width: 400px) {
     .navbar-toggler {
         width: 100%;
         float: none;
@@ -47,7 +47,7 @@ and (max-width: 815px) {
 
 /*Changes image on mobile*/
 @media only screen 
-and (max-width: 815px) {
+and (max-width: 400px) {
     .parallax { 
 background-image: url("../images/IMG_3011.jpg")!important;
 background-size: cover;
@@ -142,19 +142,37 @@ h2 {
     background:transparent url('../images/home_box1.jpg') no-repeat center center /cover;
 }
 
+#box1 p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #box2 {
     background:transparent url('../images/home_box2.jpg') no-repeat center center /cover;
+}
+
+#box2 p {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #box3 {
     background:transparent url('../images/home_box3.jpg') no-repeat center center /cover;
 }
 
+#box3 p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #box4 {
     background:transparent url('../images/home_box4.jpg') no-repeat center center /cover;
 }
 
-
+#box4 p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
 
