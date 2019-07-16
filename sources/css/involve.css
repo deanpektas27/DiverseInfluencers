@@ -152,12 +152,8 @@
     text-align:center;
     color:white;
     background: rgb(176, 109, 32);
-    height: 30em;
-    -webkit-transition: opacity 3s ease-in-out;
-    -moz-transition: opacity 3s ease-in-out;
-    -ms-transition: opacity 3s ease-in-out;
-    -o-transition: opacity 3s ease-in-out;
-    
+    height: 40em;
+
 }
 
 #leftcaption {
@@ -178,7 +174,7 @@
     text-align:center;
     color:white;
     background: rgb(104, 16, 158);
-    height: 30em;
+    height: 40em;
 }
 
 #rightcaption {
