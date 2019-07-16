@@ -41,7 +41,39 @@
   
   }
   
+  /*For footer*/
+  
+  .footer-middle {
+      background: #8e8e8c;
+      padding-top: 3rem;
+      display: text;
+      justify-content: space-between;
+      color:white;
+      
+  }
+  
+  .menu {
+      list-style: none;
+  }
+  .menu li{
+      display: inline;
+  }
+  
+  /*End footer*/
+  
   /*End of primary styling for all sheets*/
+
+  .parallax {
+    background: url("../images/progbackgrad.png");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 div {
     font-size: 21px;
@@ -104,6 +136,12 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media only screen 
+  and (min-width: 992px) {
+      #benefitscont {
+          margin-left:10%;
+      }
 
 
 
