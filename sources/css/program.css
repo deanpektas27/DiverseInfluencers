@@ -63,17 +63,6 @@
   
   /*End of primary styling for all sheets*/
 
-  .parallax {
-    background: url("../images/progbackgrad.png");
-
-    min-height: 500px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 div {
     font-size: 21px;
@@ -109,12 +98,17 @@ li {
     background-color: rgba(5,179,146,0.8);
     color: white;
     font-weight: 100;
+    
 }
 
 #leftside {
     background-color: rgba(183, 47,123,0.8);
     color: white;
     font-weight: lighter;
+}
+
+.morerounded {
+    border-radius: .65rem !important;
 }
 
 #benrightside {
@@ -125,7 +119,7 @@ li {
     background:orange;
 }
 
-.parallax {
+.background {
 
     background: #1B2034;
 
