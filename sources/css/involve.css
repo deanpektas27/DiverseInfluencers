@@ -91,6 +91,12 @@
 
 }
 
+#newleft {
+    text-align:center;
+
+    height: 100vh;
+}
+
 #leftcaption {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -122,6 +128,53 @@
     background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
 }
 
+/*Card flip start*/
+
+.card-container {
+    display: grid;
+    perspective: 700px;
+}
+
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.back {
+    transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}
+
+.card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.front {
+    grid-area: frontAndBack;
+    background:transparent url('../images/involveleftgrad.jpg') no-repeat center center /cover;
+    color:white;
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);
+    background: #0a5195;
+    color: white;
+}
+
+/*Card flip end*/
 
 
 
