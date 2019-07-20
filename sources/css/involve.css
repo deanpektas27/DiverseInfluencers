@@ -92,6 +92,10 @@
 
 }
 
+.leftparagraph {
+    font-size: 20%;
+}
+
 #newleft {
     text-align:center;
     
@@ -103,7 +107,7 @@
 #leftcaption {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align:center;
 }
 
@@ -242,6 +246,31 @@
     transform: rotateY( 180deg );
 }
 
+@media only screen 
+and (min-width: 980px) {
+    #newleft {
+        padding-right: 0px;
+    }
+    #newright {
+        padding-left: 0px;
+    }
+    
+}
+
+@media only screen 
+and (max-width: 980px) {
+    #leftcontainer {
+        font-size: 90%;
+    }
+    .lefttitle {
+        font-size: 25%;
+    }
+    .leftsubtitle {
+        font-size: 20%;
+    }
+            
+    
+}
 
 
 
