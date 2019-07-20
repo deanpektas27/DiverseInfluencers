@@ -12,6 +12,7 @@
 }
 
 .footer-middle {
+    display:block;
     background: #8e8e8c;
     display: text;
     justify-content: space-between;
@@ -93,14 +94,17 @@
 
 #newleft {
     text-align:center;
-
+    
     height: 100vh;
+    
+    
 }
 
 #leftcaption {
     padding-top: 5%;
     padding-bottom: 5%;
-    font-size: 2.3rem;
+    font-size: 3.5rem;
+    text-align:center;
 }
 
 #left:hover {
@@ -118,6 +122,12 @@
     height: 100vh;
 }
 
+#newright {
+    text-align:center;
+    
+    height: 100vh;
+}
+
 #rightcaption {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -128,8 +138,121 @@
     background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
 }
 
-/*Card flip start*/
+.leftcard {
+    width: 100%;
+    height: 100%;
+    
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
 
+.leftcard div {
+    display: absolute;
+    
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.leftcard .leftfront {
+    height: 100vh;
+    background:transparent url('../images/involveleftgrad.jpg') no-repeat center center /cover;
+}
+
+.leftcard .back {
+    height: 100vh;
+    background: #0a5195;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.leftcard.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.rightcard {
+    width: 100%;
+    height: 100%;
+    
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 50% 50%;
+}
+
+.rightcard div {
+    display: absolute;
+    
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.rightcard .rightfront {
+    height: 100vh;
+    background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
+}
+
+.rightcard .rightback {
+    height: 100vh;
+    background: #b4337b;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+.rightcard.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+
+
+
+
+
+
+
+
+
+
+/*Card flip start*/
+/*
 .card-container {
     display: grid;
     perspective: 700px;
@@ -173,8 +296,12 @@
     background: #0a5195;
     color: white;
 }
-
+*/
 /*Card flip end*/
+
+
+
+
 
 
 

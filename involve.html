@@ -105,35 +105,109 @@
             </div>
         </div>
     -->
-    <div class="row">
-        <div class="card-container col-md-6" id="newleft">
-            <div class="card-flip">
-                <div class="front">
-                <div class="row mb-5"></div>
-                <h2 id="leftcaption"><strong>HELP CONDUCT A WORKSHOP</strong></h2>
+    <div class="row">  
+            
+
+        <div class="col-md-6" id="newleft" style="padding-right:0px;">
+           <div class="leftcard">
+            <div class="leftfront">
+                    <div class="row mb-5 "></div>
+                    <h2 class="ml-5 mr-5 mt-5" id="leftcaption"><strong>HELP CONDUCT A WORKSHOP</strong></h2>
+                    
+                    <h2 style="text-align:center" class="leftparagraph ml-5 mr-5">
+                        Learn how you can help make a 
+                        difference in the careers of our students.
+                    </h2>
+                    
+                    <div class="">
+                        <button type="button" class="btn btn-success pl-5 pr-5" onclick="leftflip()">LEARN MORE</button>
+                    </div>
+
+            </div>
+            <div class="back">
                 <div class="container">
-                        <p style="font-size: 150%;" class="">
-                            Learn how you can help make a 
-                            difference in the careers of our students.
-                        </p>
-                        </div>
-                        <div class="pt-5">
-                            <button type="button" class="btn btn-success pl-5 pr-5">LEARN MORE</button>
-                        </div>
+                    
+                    <h1 class="mt-4">GET INVOLVED - MENTOR</h1>
+                    <h2 class="pt-3 ml-2" style="text-align:left;">Purpose</h2>
+                    <p class="ml-2 mr-2" style="font-size:12%;text-align:left;">
+                            At Diverse Influencers, we strongly 
+                            believe in the value of mentorship. 
+                            As a Mentor, you will have the opportunity 
+                            to help an under-resourced CUNY freshman/sophomore 
+                            with their professional development in the early 
+                            stages of their career. 
+                    </p>
+                    <h2 class="pt-3 ml-2" style="text-align:left;">Benefits</h2>
+                    
+                        <ul class="list-unstyled" style="">
+                            <li>
+                                <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
+                                <ul style="font-size:12%;text-align:left;">
+                                    <li>Rapidly expand your professional network</li>
+                                    <li>Discover what career path is right for you</li>
+                                    <li>Meet students across different CUNYs</li>
+                                    <li>Receive a mentor who will provide you with one-on-one career coaching</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    
+                    <h2 class="pt-4 ml-2" style="text-align:left;">Expectations</h2>
+                    <button type="button" class="btn btn-success pl-5 pr-5" onclick="leftflip()">Go Back</button>
                 </div>
 
-                <div class="back">
-                    <p>Purpose
-                            At Diverse Influencers, 
-                            we strongly believe in the value of mentorship. 
-                            As a Mentor, you will have the opportunity to 
-                            help an under-resourced CUNY freshman/sophomore with 
-                            their professional development in the early stages of their career. 
-                    </p>
-                </div>
+                    
             </div>
+        </div> 
         </div>
-    </div>   
+
+        <div class="col-md-6" id="newright" style="padding-left:0px;">
+                <div class="rightcard">
+                    <div class="rightfront">
+                        <div class="row mb-5 "></div>
+                        <h2 class="ml-5 mr-5 mt-5" id="leftcaption"><strong>MENTOR A DI FELLOW</strong></h2>
+                        <h2 style="text-align:center" class="rightparagraph ml-5 mr-5">
+                                Mentor a DI fellow who is beginning their career while being
+                        a part of our growing professional network.
+                        </h2>
+    
+                        <div class="">
+                            <button type="button" class="btn btn-success pl-5 pr-5" onclick="rightflip()">LEARN MORE</button>
+                        </div>
+                    </div>
+    
+                    <div class="rightback">
+                        <button type="button" class="btn btn-success pl-5 pr-5" onclick="rightflip()">Go Back</button>
+                    </div>
+    
+                </div>
+        </div>
+
+
+
+
+
+        
+        
+    </div>
+
+
+
+    
+    
+    
+
+
+
+<script>
+    function leftflip() {
+    $('.leftcard').toggleClass('flipped');
+    }
+
+    function rightflip() {
+    $('.rightcard').toggleClass('flipped');
+    }
+</script>
+
         
 
    
