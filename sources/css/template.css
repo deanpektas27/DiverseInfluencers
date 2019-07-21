@@ -28,7 +28,7 @@
   }
   
   @media only screen 
-  and (max-width: 400px) {
+  and (max-width: 500px) {
       .navbar-toggler {
           width: 100%;
           float: none;
@@ -71,9 +71,14 @@
   
   .menu {
       list-style: none;
+      padding-left: 0px;
   }
   .menu li{
       display: inline;
+  }
+
+  .footercopy {
+    padding-top: 5%;
   }
   
   /*End footer*/
