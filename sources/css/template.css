@@ -62,7 +62,7 @@
   
   .footer-middle {
       background: #8e8e8c;
-      padding-top: 3rem;
+      padding-top: 1rem;
       display: text;
       justify-content: space-between;
       color:white;
@@ -70,6 +70,7 @@
   }
   
   .menu {
+      padding-top: 3%;
       list-style: none;
       padding-left: 0px;
   }
@@ -78,7 +79,7 @@
   }
 
   .footercopy {
-    padding-top: 5%;
+    padding-top: 7%;
   }
   
   /*End footer*/

@@ -29,7 +29,7 @@ background-repeat: no-repeat;
 }
 
 .parallax {
-    background: url("../images/IMG_3011.jpg");
+    background: url("../images/mainpage.jpg");
 
     min-height: 500px;
 
@@ -106,7 +106,7 @@ h2 {
 }
 
 #box2 {
-    background:transparent url('../images/home_box2.jpg') no-repeat center center /cover;
+    background:transparent url('../images/home_box2new.jpg') no-repeat center center /cover;
 }
 
 #box2 p {
