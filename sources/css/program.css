@@ -71,6 +71,12 @@ li {
           margin-left:10%;
       }
 
+@media only screen 
+    and (max-width: 1855px) {
+        .rightparagraph {
+            padding-bottom: 5rem;
+        }
+
 
 
 
