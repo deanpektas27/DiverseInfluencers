@@ -65,15 +65,12 @@ li {
     background-size: cover;
 }
 
-.w3-theme {color:#fff !important; background-color:#B72F7B !important}
+.w3-theme {color:#fff !important; background-color:#B72F7B !important; display: block; width: 100%;}
 
   .fas {
       font-size: 50%;
   }
 
-.w3-block {
-    background-color: #B72F7B!important;
-}
 
 @media only screen 
   and (min-width: 992px) {
