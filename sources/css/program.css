@@ -65,58 +65,8 @@ li {
     background-size: cover;
 }
 
-.w3-theme {color:#fff !important; background-color:#B72F7B !important; display: block; width: 100%;}
 
-  .fas {
-      font-size: 50%;
-  }
-
-
-@media only screen 
-  and (min-width: 992px) {
-      #benefitscont {
-          margin-left:10%;
-      }
-
-@media only screen 
-    and (max-width: 1855px) {
-        .rightparagraph {
-            padding-bottom: 5rem;
-        }
-
-/* Style the buttons that are used to open and close the accordion panel */
-/*.accordion {
-    background-color: rgba(183, 47,123,1);
-    
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-
-
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  /*
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  */
-  /* Style the accordion panel. Note: hidden by default */
-  /*.panel {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
-  */
-
-  h3 {
+h3 {
     font-size: 1.75rem;
     color: #373d51;
     padding: 1.3rem;
@@ -207,4 +157,18 @@ li {
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
+
+
+@media only screen 
+  and (min-width: 992px) {
+      #benefitscont {
+          margin-left:10%;
+      }
+
+@media only screen 
+    and (max-width: 1855px) {
+        .rightparagraph {
+            padding-bottom: 5rem;
+        }
+
 
