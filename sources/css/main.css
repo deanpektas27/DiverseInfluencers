@@ -2,7 +2,7 @@
 
 /*Changes image on mobile*/
 @media only screen 
-and (max-width: 400px) {
+and (max-width: 800px) {
     .parallax { 
 background-image: url("../images/mainpage.jpg")!important;
 background-size: cover;
