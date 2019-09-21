@@ -92,6 +92,10 @@ h2 {
     padding:300px 0;
 }
 
+#newsright {
+    background:transparent url('../images/1.png')no-repeat center center /cover;
+}
+
 
 
 
@@ -132,6 +136,21 @@ h2 {
     margin-right: 10%;
 }
 
+#row1{
+    background:#1bb494;
+    color:white; 
+}
+
+#benrightside {
+    background:transparent url('../images/argnewsletternew.png')no-repeat center center /cover;
+}
+
+@media only screen 
+  and (min-width: 992px) {
+      #benefitscont {
+          margin-left:10%;
+      }
+
 @media only screen 
 and (max-width: 480px) {
     .sponsorimg {
@@ -154,6 +173,7 @@ and (max-width: 480px) {
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 }
+
 
 
 
