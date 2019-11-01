@@ -24,7 +24,7 @@ if($link === false){
 $sql = "INSERT INTO $usertable(firstname,lastname,role,email,phone,org) VALUES ('$firstname','$lastname','$role','$email','$phone','$org')";
 
 if(mysqli_query($link, $sql)) {
-    echo "Records added successfully!.";
+    header('Location:index.html');
 } else {
     echo "ERROR: Unable to execute :( ." . mysqli_error($link);
 }
