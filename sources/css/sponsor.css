@@ -5,3 +5,19 @@ and (max-width: 400px){
         padding-left: 0px ;
     }
 }
+
+.btn.btn-primary {
+    background-color: #1B2034;
+    border-color: #1B2034;
+}
+
+#formbackground {
+    background: url("../images/sponsorbackgrad.jpg");
+    min-height: 500px;
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

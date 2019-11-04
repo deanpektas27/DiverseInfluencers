@@ -8,7 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="sources/css/sponsor.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="sources/css/template.css"/>
 
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -85,18 +89,20 @@
 
     </header>
 
-<div class="row pb-4 pt-4" style="background-color:#96C0CE">
+<div class="row pb-4 pt-4" id="formbackground">
 
         <div class="col-lg-2"></div>
-        <div class="col-lg-8">
+        <div class="col-lg-8" id="formbox">
 
-<div class="row mt-4 mb-4 ml-5 mr-5 pb-4 pt-4 pl-4 pr-4" style="background-color:#C25B56; color:white;">
+<div class="row mt-4 mb-4 ml-5 mr-5 pb-4 pt-4 pl-4 pr-4" style="background-color: rgba(128,128,128, 0.8); color:white;">
     <div class="container">
-        <h1 style="font-weight:900">Interested in Partnering with us?</h1>
+        <h1 style="font-weight:900">Interested in partnering with us?</h1>
         <p>Learn more about how you can be a part of our diverse community, please take a 
             moment to fill out the form below!
         </p>
     </div>
+
+
 
 
     <div class="container">
@@ -125,7 +131,7 @@
               <label for="org">Organization:</label>
               <input type="org" class="form-control" id="org" name="org" required>
             </div>
-            <button type="submit" class="btn btn-primary ml-2 mr-2">Submit</button>
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored ml-2 mr-2" id="sponsorbtn">Submit</button>
           </form>
     </div>
 </div>
