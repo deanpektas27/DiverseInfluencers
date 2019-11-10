@@ -1,15 +1,17 @@
+
 @media only screen
 and (max-width: 400px){
     .container {
-        padding-right: 0px ;
+        padding-right:0px ;
         padding-left: 0px ;
     }
 }
 
-.btn.btn-primary {
+
+#sponsorbtn {
     background-color: #1B2034;
-    border-color: #1B2034;
 }
+
 
 #formbackground {
     background: url("../images/sponsorbackgrad.jpg");
@@ -20,4 +22,8 @@ and (max-width: 400px){
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+#box {
+    margin: 1%;
 }
