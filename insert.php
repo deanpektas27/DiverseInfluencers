@@ -13,7 +13,6 @@ $password="dpassword";
 $dbname="divepsyi_disponsors";
 $usertable="sponsorform";
 
-
 $response_array['status'] = "";
 
 $link= mysqli_connect($hostname,$username,$password,$dbname);
@@ -27,8 +26,9 @@ if($link === false){
 $sql = "INSERT INTO $usertable(firstname,lastname,role,email,phone,org) VALUES ('$firstname','$lastname','$role','$email','$phone','$org')";
 
 if(mysqli_query($link, $sql)) {
-    //header('Location:index.html');
-    $response_array['status'] = "success";
+    header('Location:index.html');
+    //$response_array['status'] = "success";
+    //echo $response_array['status'];
     
 } else {
     echo "ERROR: Unable to execute :( ." . mysqli_error($link);
