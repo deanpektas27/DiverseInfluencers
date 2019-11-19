@@ -15,6 +15,8 @@ $usertable="sponsorform";
 
 $response_array['status'] = "";
 
+$response_array['status'] = "";
+
 $link= mysqli_connect($hostname,$username,$password,$dbname);
 
 //check connection
@@ -29,6 +31,9 @@ if(mysqli_query($link, $sql)) {
     header('Location:index.html');
     //$response_array['status'] = "success";
     //echo $response_array['status'];
+    $msg = $firstname . " " . $lastname . " has requested to be a DI sponsor!\n\nInfo:\nCompany: " . $org . "\nEmail: " . $email . "\nPhone: " . $phone;
+    $msg = wordwrap($msg,150);
+    mail("dean@diverseinfluencers.org","New DI Sponsor request!", $msg);
     
 } else {
     echo "ERROR: Unable to execute :( ." . mysqli_error($link);
