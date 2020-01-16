@@ -203,9 +203,79 @@
             <div class="row pb-2" style="background: rgba(27,32,52,1)">
                 <div class="container">
                     <div class="col-lg-12">
-                        <h3 class="text-center" style="color:white; text-align:center;">If you have any questions, email us <a href="mailto:info@diverseinfluencers.org" style="font-size: 102%;"> here</a>.</h3>
+                        <h3 class="text-center" style="color:white; text-align:center;">Interested in our program? <a id="myBtn" style="font-size: 102%;">Let us know!</a></h3>
                     </div>
             </div>
+
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="row">
+                  <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Sign up for updates!</h4>
+                    <span class="close">&times;</span>
+                  </div>
+                  <div class="modal-body">
+                      <div class="container">
+                          <form action="potentialstudent.php" method="POST">
+                              <div class="form-group ml-2 mr-2">
+                                <label for="firstname">First Name</label>
+                                <input type="firstname" class="form-control" id="firstname" name="firstname" required>
+                              </div>
+                              <div class="form-group ml-2 mr-2">
+                                <label for="lastname">Last Name</label>
+                                <input type="lastname" class="form-control" id="lastname" name="lastname" required>
+                              </div>
+                              <div class="form-group ml-2 mr-2">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                              </div>
+                              <div class="form-group ml-2 mr-2">
+                                <label for="phone">Phone Number</label>
+                                <input type="phone" class="form-control" id="phone" name="phone" required>
+                              </div>
+                              <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored ml-2 mr-2" id="sponsorbtn">Submit</button>
+                            </form>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col-lg-2"></div>
+              </div>
+
+            </div>
+
+              <script>
+                  // Get the modal
+                  var modal = document.getElementById("myModal");
+                  
+                  // Get the button that opens the modal
+                  var btn = document.getElementById("myBtn");
+                  
+                  // Get the <span> element that closes the modal
+                  var span = document.getElementsByClassName("close")[0];
+                  
+                  // When the user clicks the button, open the modal 
+                  btn.onclick = function() {
+                    modal.style.display = "block";
+                  }
+                  
+                  // When the user clicks on <span> (x), close the modal
+                  span.onclick = function() {
+                    modal.style.display = "none";
+                  }
+                  
+                  // When the user clicks anywhere outside of the modal, close it
+                  window.onclick = function(event) {
+                    if (event.target == modal) {
+                      modal.style.display = "none";
+                    }
+                  }
+                  </script>
                 
             </div>
             <div class="row pb-5" style="background: rgba(27,32,52,1)">
@@ -218,6 +288,9 @@
             </div>
         </div>
     
+
+
+
 <div class="row" style="background-color:  #FFFAF1;">
 <div class="container pt-5 pb-5">
         <div class="container">
