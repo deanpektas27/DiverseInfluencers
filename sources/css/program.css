@@ -1,5 +1,5 @@
 div {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 label {
@@ -67,13 +67,6 @@ label {
     background-size: cover;
 }
 
-
-h3 {
-    font-size: 1.75rem;
-    color: #373d51;
-    padding: 1.3rem;
-    margin: 0;
-  }
   
   .accordion a {
     position: relative;
