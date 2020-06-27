@@ -43,12 +43,23 @@ label {
     font-weight: lighter;
 }
 
+#middle {
+  background-color: rgba(0, 78,151,0.8);
+  color:white;
+  font-weight: 100;
+}
+
 .morerounded {
     border-radius: .65rem !important;
 }
 
 #benrightside {
     background:transparent url('../images/1.png')no-repeat center center /cover;
+}
+
+#eligrightside {
+    background:transparent url('../images/iconDI.png')no-repeat center center /cover;
+    background-size: 180px;
 }
 
 #benrightside::before{
