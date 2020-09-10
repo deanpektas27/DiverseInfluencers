@@ -190,7 +190,7 @@
 
 .leftcard .leftfront {
     height: 100vh;
-    background:transparent url('../images/involveleftgrad.jpg') no-repeat center center /cover;
+    background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
 }
 
 .leftcard .back {
@@ -242,7 +242,7 @@
 
 .rightcard .rightfront {
     height: 100vh;
-    background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
+    background:#b4337b;
 }
 
 .rightcard .rightback {
