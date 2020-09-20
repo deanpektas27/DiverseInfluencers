@@ -31,7 +31,7 @@ background-repeat: no-repeat;
 .parallax {
     background: url("../images/mainpage.jpg");
 
-    min-height: 500px;
+    min-height: 600px;
 
     background-attachment: fixed;
     background-position: center;
@@ -46,14 +46,62 @@ background-repeat: no-repeat;
 .text-box {
     padding-top: 5%;
     text-align: left;
-    font-size:90px;
-    height: 600px;
+    font-size:80px;
+    height: 300px;
     /*padding-top: 20px;
     padding-left: 20px;
     padding-right: 30px;*/
     font-weight: bold;
     color: #ffffff;
        
+}
+
+.ad1 {
+    background: url("../images/ad1grad.jpg");
+
+    min-height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen
+and (max-width: 576px){
+    .ad1 {
+        max-height: 0px;
+    }
+    .parallax {
+        max-height: 0px;
+    }
+}
+
+@media only screen
+and (min-width: 576px){
+    .ad1dates {
+        border-radius: 25px;
+    }
+}
+
+
+.adbox1 {
+    padding-top: 5%;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.adboxtext {
+    font-size: 60px;
+    font-family: nowbold;
+}
+
+@media only screen 
+and (max-width: 600px) {
+    .adboxtext{
+        font-size: 40px;
+
+    }
 }
 
 .animated {
