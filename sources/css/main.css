@@ -85,7 +85,7 @@ and (min-width: 576px){
 
 
 .adbox1 {
-    padding-top: 5%;
+    padding-top: 2%;
     height: 500px;
     text-align: center;
     color: white;
@@ -94,6 +94,17 @@ and (min-width: 576px){
 .adboxtext {
     font-size: 60px;
     font-family: nowbold;
+}
+
+.adboxtext a {
+    font-size: 60px;
+    font-family: nowbold;
+    color:white;
+}
+
+.adboxtext a:hover{
+    color:white;
+    text-decoration:none;
 }
 
 @media only screen 
