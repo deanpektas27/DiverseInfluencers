@@ -66,6 +66,7 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 @media only screen
 and (max-width: 576px){
     .ad1 {
@@ -101,6 +102,26 @@ and (min-width: 576px){
     font-family: nowbold;
 }
 
+.adboxtext2 {
+    font-size: 60px;
+    font-family: nowbold;
+}
+
+.adboxtext2 a {
+    font-size: 90%;
+    font-family: nowbold;
+    color:white;
+}
+
+.adboxtext2 a:hover{
+    color:white;
+
+}
+
+h3.adboxtext2 {
+    font-size: 40px;
+}
+
 h2.adboxtext {
     font-size: 45px;
 }
@@ -121,6 +142,12 @@ and (max-width: 600px) {
     .adboxtext{
         font-size: 40px;
 
+    }
+    .adboxtext2{
+        font-size: 40px;
+    }
+    h3.adboxtext2{
+        font-size: 25px;
     }
 }
 
