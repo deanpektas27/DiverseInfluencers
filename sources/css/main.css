@@ -83,6 +83,11 @@ and (min-width: 576px){
     }
 }
 
+.ad1dates .ad2 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 
 .adbox1 {
     padding-top: 2%;
@@ -96,15 +101,19 @@ and (min-width: 576px){
     font-family: nowbold;
 }
 
+h2.adboxtext {
+    font-size: 45px;
+}
+
 .adboxtext a {
-    font-size: 60px;
+    font-size: 90%;
     font-family: nowbold;
     color:white;
 }
 
 .adboxtext a:hover{
     color:white;
-    text-decoration:none;
+
 }
 
 @media only screen 
