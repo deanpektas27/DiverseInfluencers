@@ -1,3 +1,6 @@
+.fellowlist {
+    height: 200vh;
+}
 .card{
     color: #1B2034;
     background-color: white;
@@ -21,11 +24,17 @@
     .card{
         width: 10rem;
     }
+    .fellowlist{
+        height: 400vh;
+    }
   }
 
   @media only screen 
   and (max-width: 525px) {
     .card{
         width: 30rem;
+    }
+    .fellowlist{
+        height: 2000vh;
     }
   }
