@@ -1,6 +1,7 @@
 .card{
     color: #1B2034;
     background-color: white;
+    width: 8rem;
 }
 
 .card:hover {
@@ -13,4 +14,18 @@
     border-color: black;
     vertical-align: baseline;
     max-width: 250px;
+  }
+
+  @media only screen 
+  and (max-width: 800px) {
+    .card{
+        width: 10rem;
+    }
+  }
+
+  @media only screen 
+  and (max-width: 525px) {
+    .card{
+        width: 30rem;
+    }
   }
