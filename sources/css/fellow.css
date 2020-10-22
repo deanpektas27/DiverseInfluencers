@@ -1,9 +1,11 @@
 .card{
     color: #1B2034;
+    background-color: white;
 }
 
 .card:hover {
     color: #0e8ed0;
+    cursor: pointer;
 }
 
 .profileimage {
