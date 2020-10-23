@@ -1,3 +1,7 @@
+body.modal-open { 
+    overflow:inherit; 
+    padding-right:inherit !important; }
+
 .fellowlist {
     height: 200vh;
 }
