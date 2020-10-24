@@ -11,6 +11,10 @@ body.modal-open {
     width: 8rem;
 }
 
+h5.card-title {
+    font-size: 115%;
+}
+
 .card:hover {
     color: #0e8ed0;
     cursor: pointer;
@@ -29,7 +33,7 @@ body.modal-open {
         width: 10rem;
     }
     .fellowlist{
-        height: 400vh;
+        height: 1200vh;
     }
   }
 
@@ -39,6 +43,27 @@ body.modal-open {
         width: 30rem;
     }
     .fellowlist{
-        height: 2000vh;
+        height: 3000vh;
+    }
+  }
+
+  @media only screen 
+  and (max-width: 990px) {
+    .fellowlist{
+        height: 300vh;
+    }
+  }
+
+  @media only screen 
+  and (max-width: 768px) {
+    .fellowlist{
+        height: 400vh;
+    }
+  }
+
+  @media only screen 
+  and (max-width: 525px) {
+    .fellowlist{
+        height: 2500vh;
     }
   }
