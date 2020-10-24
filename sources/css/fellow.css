@@ -3,7 +3,7 @@ body.modal-open {
     padding-right:inherit !important; }
 
 .fellowlist {
-    height: 200vh;
+    height: 800vh;
 }
 .card{
     color: #1B2034;
@@ -47,6 +47,8 @@ h5.card-title {
     }
   }
 
+  
+/*
   @media only screen 
   and (max-width: 990px) {
     .fellowlist{
@@ -67,3 +69,4 @@ h5.card-title {
         height: 2500vh;
     }
   }
+  */
