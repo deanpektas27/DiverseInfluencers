@@ -2,18 +2,7 @@ body.modal-open {
     overflow:inherit; 
     padding-right:inherit !important; }
 
-.fellowlist {
-    height: 300vh;
-}
-.card{
-    color: #1B2034;
-    background-color: white;
-    width: 8rem;
-}
 
-h5.card-title {
-    font-size: 115%;
-}
 
 .card:hover {
     color: #0e8ed0;
@@ -26,47 +15,3 @@ h5.card-title {
     vertical-align: baseline;
     max-width: 250px;
   }
-
-  @media only screen 
-  and (max-width: 800px) {
-    .card{
-        width: 10rem;
-    }
-    .fellowlist{
-        height: 1200vh;
-    }
-  }
-
-  @media only screen 
-  and (max-width: 525px) {
-    .card{
-        width: 30rem;
-    }
-    .fellowlist{
-        height: 3000vh;
-    }
-  }
-
-  
-/*
-  @media only screen 
-  and (max-width: 990px) {
-    .fellowlist{
-        height: 300vh;
-    }
-  }
-
-  @media only screen 
-  and (max-width: 768px) {
-    .fellowlist{
-        height: 400vh;
-    }
-  }
-
-  @media only screen 
-  and (max-width: 525px) {
-    .fellowlist{
-        height: 2500vh;
-    }
-  }
-  */
