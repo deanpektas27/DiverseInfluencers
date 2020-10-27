@@ -41,6 +41,31 @@ background-repeat: no-repeat;
 }
 
 
+.gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.308), rgb(0, 0, 0));
+
+}
+
+.btn-cohort {
+    border-radius: 2800px !important;
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: white;
+    color: black;
+}
+
+
+.slide1{
+    background: url("../images/welcomebanner.png");
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 /*caption*/
 
 .text-box {
@@ -54,6 +79,13 @@ background-repeat: no-repeat;
     font-weight: bold;
     color: #ffffff;
        
+}
+
+.adcaption{
+    text-align: left;
+    font-size:90px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .animated {
