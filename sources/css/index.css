@@ -9,6 +9,12 @@ background-size: cover;
 background-attachment: scroll !important;
 background-repeat: no-repeat;
         }
+    .slide1 { 
+background-image: url("../images/welcomebanner.png")!important;
+background-size: cover;
+background-attachment: scroll !important;
+background-repeat: no-repeat;
+        }
     
     #box1 {
         padding-top: .25rem !important;
@@ -83,9 +89,17 @@ background-repeat: no-repeat;
 
 .adcaption{
     text-align: left;
-    font-size:90px;
+    font-size:85px;
     font-weight: bold;
     color: #ffffff;
+}
+
+@media only screen 
+and (max-width: 1024px) {
+    .adcaption {
+        font-size: 60px;
+    }
+
 }
 
 .animated {
