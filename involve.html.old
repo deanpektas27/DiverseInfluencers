@@ -65,7 +65,7 @@
                         <a class="nav-link" href="involve.html">Get Involved</a>
                     </li>
                     <li class="nav-item mr-4">
-                        <a class="nav-link" href="https://secure.givelively.org/donate/diverse-influencers-inc">Donate</a>
+                        <a class="nav-link" href="https://secure.givelively.org/donate/diverse-influencers-inc/sponsor-a-fellow-2020-2021">Donate</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://teespring.com/stores/diverseinfluencers">Shop</a>
@@ -128,110 +128,22 @@
                         difference in the careers of our students.
                     </h2>
                     
-                    <div class="">
-                        <button type="button" class="btn btn-success pl-5 pr-5" onclick="leftflip()">LEARN MORE</button>
-                    </div>
-                    
             </div>
-            <div class="back">
-                
-                    <span class="close" id="closebtn" onclick="leftflip()">x</span>
-                    <h1 class="mt-4 lefttitle">WORKSHOP SPEAKER</h1>
-                    <div class="container" id="leftcontainer">
-                    <!--<h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">PURPOSE</h2>-->
-                    <p class="ml-2 mr-2" style="font-size:12%;text-align:left;font-weight:400;">
-                        <!--    
-                            Workshop speakers are an integral part of our program.
-                            As a speaker, you will conduct a workshop to establish a 
-                            foundational knowledge of soft/hard skills for our Fellows. 
-                            By volunteering your time, you will be helping us provide essential professional development for our Fellows.  
-                        -->
-                            Do you ever wish you could go back in time to tell your younger self in 
-                            college to avoid making certain decisions? We provide you a similar opportunity, 
-                            but instead of helping your younger self, you’d be helping a current college 
-                            freshman/sophomore student.<br>
-                            <br>
-                            Mentors serve as resources for our fellows to learn from and look to as role models.
-                    </p>
-                    <h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">REQUIREMENTS</h2>
-                    
-                        <ul class="list-unstyled" style="">
-                            <li>
-                                <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
-                                <ul style="font-size:12%;text-align:left;font-weight:400;">
-                                    <li>Must be working a full-time job in a business and/or technology role</li>
-                                    <li>Must be a college graduate with at least 1 year of full-time experience</li>
-                                    <li>Must have extensive knowledge on the topic of their choosing</li>
-                                    <li>Must be available to attend a Saturday afternoon workshop</li>
-                                </ul>
-                            </li>
-                        </ul>
 
-                    <h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">EXPECTATIONS</h2>
-                            
-                    <ul class="list-unstyled" style="">
-                        <li>
-                            <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
-                            <ul style="font-size:12%;text-align:left;font-weight:400;">
-                                <li>Conduct an informative workshop for 36 fellows to help them build a foundational soft/hard skill</li>
-                                <li>Prepare a well-thought-out presentation for 36 fellows to ensure adequate learning</li>
-                                <li>Ensure each fellow receives adequate attention throughout the workshop to prevent learning gaps</li>
-                                <li>Respond to communications from the DI management team in a timely manner</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    
-                    <h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">BENEFITS</h2>
-                    <ul class="list-unstyled" style="margin-bottom: 0px;">
-                            <li>
-                                <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
-                                <ul style="font-size:12%;text-align:left;font-weight:400;">
-                                    <li>Develop your public speaking skills by conducting presentations in front of a group of 36 fellows</li>
-                                    <li>Gain access to any public/private events hosted by DI to help expand your professional network</li>
-                                    <li>Receive a special shoutout for volunteering your time as a speaker in our monthly newsletter</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    <a role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe_soyOabfGuztAWVTmi0Z0_wFiBbTnbhBjkr9hG1UBcs1JJg/viewform" class="btn btn-success pl-5 pr-5 mb-5">APPLY</a>
-                </div>
-
-                    
-            </div>
         </div> 
         </div>
 
         <div class="col-lg-6" id="newright" style="">
-                <div class="rightcard">
+                <div class="rightcard">  
                     <div class="rightfront">
-                        <div class="row mb-5 "></div>
-                        <h2 class="ml-5 mr-5 mt-5" id="leftcaption"><strong>MENTOR A <br>DI FELLOW</strong></h2>
-                        <h2 style="text-align:center" class="rightparagraph ml-5 mr-5">
-                                Provide one-on-one career coaching for our Fellows.
-                        </h2>
-    
-                        <div class="">
-                            <button type="button" class="btn btn-success pl-5 pr-5" onclick="rightflip()">LEARN MORE</button>
-                        </div>
-                    </div>
-    
-                    <div class="rightback">
-                            <span class="close" id="closebtn" onclick="rightflip()">x</span>
                             <h1 class="mt-4 lefttitle">MENTOR</h1>
                             <div class="container" id="rightcontainer">
-                            <!--<h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">PURPOSE</h2>-->
+                            <h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">PURPOSE</h2>
                             <p class="ml-2 mr-2" style="font-size:12%;text-align:left;font-weight:400;">
-                                <!--
                                 At Diverse Influencers, we strongly believe in the value of mentorship. 
                                 As a Mentor, you will have the opportunity to help an under-resourced 
                                 CUNY freshman/sophomore with their professional development in the early 
-                                stages of their career.
-                                -->
-                                Do you ever wish you could go back in time to tell your younger self in 
-                                college to avoid making certain decisions? We provide you a similar opportunity, 
-                                but instead of helping your younger self, you’d be helping a current 
-                                college freshman/sophomore student.<br>
-                                <br>
-                                Mentors serve as resources for our fellows to tap into for advice and career support.
+                                stages of their career.  
         
                             </p>
                             <h2 class="mt-1 ml-2 leftsubtitle" style="text-align:left;">REQUIREMENTS</h2>
@@ -242,8 +154,9 @@
                                         <ul style="font-size:12%;text-align:left;font-weight:400;">
                                             <li>Must be working a full-time job in a business and/or technology role</li>
                                             <li>Must be a college graduate with at least 1 year of full-time experience</li>
-                                            <li>Must have availability to virtually meet with fellow once a month</li>
-                                            <li>Must be available to attend virtual bondings with fellows and mentors</li>
+                                            <li>Must be available to attend one workshop per month on Saturday (virtual; Fall 2020) 
+                                                and Thursday (in-person; Spring 2021)</li>
+                                            <li>Must be available to attend in-person bondings with fellows and mentors (post-covid)</li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -254,9 +167,9 @@
                                     <li>
                                         <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
                                         <ul style="font-size:12%;text-align:left;font-weight:400;">
-                                            <li>Stay in touch with your fellow once a month via online meetings for active engagement</li>
-                                            <li>Provide support to your fellow by ensuring fellows work towards completing their SMART goals</li>
-                                            <li>Help your fellow apply to internship and company insight opportunities for early career exposure</li>
+                                            <li>Actively stay in touch with your fellow by attending one workshop per month</li>
+                                            <li>Provide support to the progression of your mentee’s SMART goals</li>
+                                            <li>Help your fellow apply to internship, company insight, and networking opportunities</li>
                                             <li>Respond to communications from the DI management team in a timely manner</li>
                                         </ul>
                                     </li>
@@ -267,14 +180,14 @@
                                     <li>
                                         <!-- PUSH THIS LIST TO THE LEFT WITHOUT PADDING!!! -->
                                         <ul style="font-size:12%;text-align:left;font-weight:400;">
-                                            <li>Create a long-lasting professional relationship with your fellow as they begin their professional career</li>
-                                            <li>Expand your professional network through networking opportunities with business/tech professionals</li>
-                                            <li>Develop your coaching abilities by practicing your leadership and communication skills with your fellow</li>
-                                            <li>Receive special shoutouts for your continuous impact in our monthly newsletter</li>
+                                            <li>Develop your coaching abilities by practicing your leadership and communication skills</li>
+                                            <li>Expand your business/tech professional network through exclusive mentor bondings</li>
+                                            <li>Opportunity to create a long-lasting professional relationship with your mentee</li>
+                                            <li>Receive proper recognition for your continuous impact in our monthly newsletter</li>
                                         </ul>
                                     </li>
                             </ul>
-                                <a role="button" href="https://www.jotform.com/build/90477318237159#preview" class="btn btn-success pl-5 pr-5 mb-5">APPLY</a>
+                                <a role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSe_soyOabfGuztAWVTmi0Z0_wFiBbTnbhBjkr9hG1UBcs1JJg/viewform?usp=sf_link" class="btn btn-success pl-5 pr-5 mb-5">APPLY</a>
                         </div>
                         
                     </div>

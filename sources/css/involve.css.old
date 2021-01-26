@@ -93,11 +93,7 @@
 }
 
 .leftparagraph {
-    font-size: 22%;
-}
-
-.rightparagraph {
-    font-size: 22%;
+    font-size: 20%;
 }
 
 #newleft {
@@ -167,13 +163,6 @@
     height: 90%;
     font-size: 120%;
     overflow: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
-/* Removing scrollbar for chrome */
-#leftcontainer::-webkit-scrollbar {
-    display: none;
 }
 
 #rightcontainer {
@@ -181,13 +170,6 @@
     height: 87%;
     font-size: 120%;
     overflow: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
-/* Removing scrollbar for chrome */
-#rightcontainer::-webkit-scrollbar {
-    display: none;
 }
 
 .leftcard div {
@@ -208,7 +190,7 @@
 
 .leftcard .leftfront {
     height: 100vh;
-    background:transparent url('../images/involveleftgrad.jpg') no-repeat center center /cover;
+    background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
 }
 
 .leftcard .back {
@@ -260,7 +242,7 @@
 
 .rightcard .rightfront {
     height: 100vh;
-    background:transparent url('../images/involverightgrad.jpg') no-repeat center center /cover;
+    background:#b4337b;
 }
 
 .rightcard .rightback {
